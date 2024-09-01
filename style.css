@@ -1,0 +1,97 @@
+/* Menu Bar Styles */
+.menu-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .menu-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu-bar li {
+    margin-right: 20px;
+  }
+  
+  .menu-bar a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .menu-bar a:hover {
+    color: #ccc;
+  }
+  
+  .menu-bar a.active {
+    color: #fff;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .dropdown {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 10px;
+    border: 1px solid #333;
+  }
+  
+  .dropdown li {
+    margin-bottom: 10px;
+  }
+  
+  .dropdown a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .dropdown a:hover {
+  color: #ccc;
+  }  
+  .menu-bar {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  .menu-bar {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  .menu-bar {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  .container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 1fr;
+}
+
+.menu-bar {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
