@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Builder</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background-color: #f0dc06;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 350px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            background-color: #FFA507;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .estimates {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .estimate {
+            display: flex;
+            align-items: center;
+            padding: 8px;
+            border-radius: 5px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+
+        .estimate input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 150px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-align: center;
+        }
+
+        .button:hover {
+            background-color: #367c39;
+        }
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer i {
+    font-size: 20px;
+    color: #333;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Builder</h1>
+<div class="section">
+    <div class="section-title">Contractor</div>
+    <div class="estimates">
+        <div class="estimate">
+            <input type="checkbox" id="estimate1">
+            <label for="estimate1">250rs Ground Floor</label>
+        </div>
+        <div class="estimate">
+            <input type="checkbox" id="estimate2">
+            <label for="estimate2">190rs Upto Ground Floor</label>
+        </div>
+        <div class="estimate">
+            <input type="checkbox" id="estimate3">
+            <label for="estimate3">See Your Work After Prices Will be Decided</label>
+        </div>
+    </div>
+</div>
+<div class="section">
+    <div class="section-title">Tiles Work</div>
+    <div class="estimates">
+        <div class="estimate">
+            <input type="checkbox" id="estimate4">
+            <label for="estimate4">15rs/Sq. Feet. House Floor Tiles</label>
+        </div>
+        <div class="estimate">
+            <input type="checkbox" id="estimate5">
+            <label for="estimate5">13rs/Sq. Feet. Bathroom Floor Tiles</label>
+        </div>
+        <div class="estimate">
+            <input type="checkbox" id="estimate6">
+            <label for="estimate6">200rs/Simple Stairs</label>
+        </div>
+        <div class="estimate">
+            <input type="checkbox" id="estimate7">
+            <label for="estimate7">250rs/Modern Stairs</label>
+        </div>
+        <div class="estimate">
+            <input type="checkbox" id="estimate8">
+            <label for="estimate8">See Your Work After Prices Will be Decided</label>
+        </div>
+    </div>
+</div>
+<div class="section">
+    <div class="section-title">workers</div>
+    <div class="estimates">
+        <div class="estimate">
+            <input type="checkbox" id="estimate9">
+            <label for="estimate9">See Your Work After Prices Will be Decided</label>
+        </div>
+    </div>
+</div>
+<button class="button">Submit</button>
+<div class="footer">
+    <i class="fa fa-gear"></i>
+    <i class="fa fa-home"></i>
+    <i class="fa fa-user"></i>
+</div>
+</div>
+</body>
+</html>
